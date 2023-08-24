@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-09T18:44:28 EDT" name="Default suite" finished-at="2023-07-09T18:44:37 EDT" duration-ms="9472">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:EBay_TestRunner.Ebay_Testrun@268f106e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-07-09T18:44:28 EDT" name="Default test" finished-at="2023-07-09T18:44:37 EDT" duration-ms="9472">
+      <class name="EBay_TestRunner.Ebay_Testrun">
+        <test-method is-config="true" signature="Ebaystarturl()[pri:0, instance:EBay_TestRunner.Ebay_Testrun@268f106e]" started-at="2023-07-09T18:44:28 EDT" name="Ebaystarturl" finished-at="2023-07-09T18:44:30 EDT" duration-ms="2718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ebaystarturl -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:EBay_TestRunner.Ebay_Testrun@268f106e]" started-at="2023-07-09T18:44:30 EDT" name="setUpClass" finished-at="2023-07-09T18:44:31 EDT" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:EBay_TestRunner.Ebay_Testrun@268f106e]" started-at="2023-07-09T18:44:31 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-07-09T18:44:37 EDT" duration-ms="6234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Baby SHoe Display Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:EBay_TestRunner.Ebay_Testrun@268f106e]" started-at="2023-07-09T18:44:37 EDT" name="tearDownClass" finished-at="2023-07-09T18:44:37 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="closeurl()[pri:0, instance:EBay_TestRunner.Ebay_Testrun@268f106e]" started-at="2023-07-09T18:44:37 EDT" name="closeurl" finished-at="2023-07-09T18:44:37 EDT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeurl -->
+      </class> <!-- EBay_TestRunner.Ebay_Testrun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

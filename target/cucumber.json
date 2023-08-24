@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verify Baby Shoes is displaying with all contents",
+        "description": "",
+        "id": "baby-shoe-display-feature;verify-baby-shoes-is-displaying-with-all-contents",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1300958500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the \"\u003cURL\u003e\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 10
+                }
+              ],
+              "location": "EBay_Stepdefinitions.open_the_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111062100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click All categories dropdown menu",
+            "match": {
+              "location": "EBay_Stepdefinitions.click_All_categories_dropdown_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 109830800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Select Baby",
+            "match": {
+              "location": "EBay_Stepdefinitions.select_Baby()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2032744900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click search",
+            "match": {
+              "location": "EBay_Stepdefinitions.click_search()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2254641800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click baby shoes",
+            "match": {
+              "location": "EBay_Stepdefinitions.click_baby_shoes()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 358467200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Baby Shoes is displaying with all contents",
+            "match": {
+              "location": "EBay_Stepdefinitions.verify_Baby_Shoes_is_displaying_with_all_contents()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Baby SHoe Display Feature",
+    "description": "",
+    "id": "baby-shoe-display-feature",
+    "keyword": "Feature",
+    "uri": "Babyshoedisplay.feature"
+  }
+]
